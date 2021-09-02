@@ -3,10 +3,15 @@
     --primary-color:#1D4ED8;
     --table-border:#1E3A8A;
 }
+html
+{
+    background-color: #EFF6FF;
+}
 body
 {
     text-align: center;
-    color:var(--primary-color)
+    color:var(--primary-color);
+    margin-top:10rem;
 }
 td,th{
     border:1px solid var(--table-border);
@@ -20,6 +25,11 @@ table{
 #cash , label[for=cash]
 {
     display: none;
+    margin-top:1rem;
+}
+label[for=cash]
+{
+    margin-left: 0.5rem;
 }
 #total
 {
