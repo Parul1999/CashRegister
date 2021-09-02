@@ -1,0 +1,49 @@
+:root
+{
+    --primary-color:#1D4ED8;
+    --table-border:#1E3A8A;
+}
+body
+{
+    text-align: center;
+    color:var(--primary-color)
+}
+td,th{
+    border:1px solid var(--table-border);
+    padding:0.5rem;
+}
+table{
+    width:50%;
+    margin:auto;
+    margin-top: 2rem;
+}
+#cash , label[for=cash]
+{
+    display: none;
+}
+#total
+{
+    display: none;
+}
+#next , #total
+{
+    width:6rem;
+    border: 2px solid var(--primary-color);
+    border-radius:2rem;
+    color:var(--primary-color);
+    background-color: transparent;
+    margin-top:1rem;
+    cursor:pointer;
+    margin-left:5rem;
+}
+
+#cash , #bill
+{
+    border:2px solid black;
+    color:var(--primary-color);
+}
+
+#output
+{
+    margin: 1rem 0 0 4rem;
+}
