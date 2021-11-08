@@ -33,7 +33,7 @@ function findTotal()
   }
   else if(cashGiven == "")
   {
-    output.innerText ="Enter Cash Given Amount!!" 
+    output.innerText = "Enter Cash Given Amount!!" 
   }
   else if(cashGiven > 0 && !(billAmount >0))
   {
